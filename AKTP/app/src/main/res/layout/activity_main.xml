@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/background_online_blank" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="268dp"
+            android:src="@drawable/atp_icon_retry"
+            android:layout_marginTop="84dp"
+            />
+        <ImageView
+            android:id="@+id/iv_rotate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-112dp"
+            android:src="@drawable/atp__bg_circle_anim" />
+
+        <Button
+            android:id="@+id/btn_play"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="112dp"
+            android:background="@drawable/select_start"
+            android:text="Now Play"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btn_hscrore"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="42dp"
+            android:background="@drawable/score_non_select"
+            android:text="HIGHT_SCORE"
+            android:textColor="#ffffff"
+            android:textSize="22dp" />
+    </RelativeLayout>
+</layout>

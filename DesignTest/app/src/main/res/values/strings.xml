@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DesignTest</string>
+    <string name="fogot_pass"><u>Forgot password</u></string>
+    <string name="create_acount">No acount yet? Create one</string>
+</resources>

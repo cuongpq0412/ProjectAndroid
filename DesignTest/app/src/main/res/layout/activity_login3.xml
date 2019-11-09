@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#b92196F3"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="68dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="FRISKA"
+                android:textColor="#fff"
+                android:textSize="86sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="86dp"
+                android:backgroundTint="#fff"
+                android:textColor="#fff"
+                android:gravity="center_vertical"
+                android:hint="Username"
+                android:layout_marginTop="28dp"
+                android:paddingLeft="16dp"
+
+                android:textColorHint="#fff"
+                android:textSize="28sp" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="86dp"
+                android:backgroundTint="#fff"
+                android:gravity="center_vertical"
+                android:layout_marginTop="28dp"
+                android:hint="Password"
+                android:textColor="#fff"
+                android:paddingLeft="16dp"
+                android:textColorHint="#fff"
+                android:textSize="28sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="I fogot password ?"
+                android:layout_marginTop="48dp"
+                android:textColor="#fff"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:gravity="bottom"
+           android:orientation="vertical">
+           <Button
+               android:id="@+id/btn_create_acount"
+               android:layout_width="match_parent"
+               android:layout_height="68dp"
+               android:textColor="#fff"
+               android:textSize="18sp"
+               android:background="#23c476"
+               android:text="Create an Account" />
+       </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
