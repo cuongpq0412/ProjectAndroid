@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:background="#fff"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="72dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:src="@drawable/girl"
+            app:civ_border_color="#ddd"
+            app:civ_border_width="1px"
+            app:civ_border_overlay="true"
+            android:id="@+id/ci_avatar"
+            android:padding="4dp"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:layout_marginLeft="8dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#3F51B5"
+                    android:id="@+id/tv_username"
+                    android:text="Pham Quoc Cuong"
+                    android:layout_marginTop="4dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ha Noi"
+                    android:layout_below="@id/tv_username"
+                    android:textSize="12sp"
+                    android:id="@+id/tv_country"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:text="lam viec tai ha noi"
+                    android:id="@+id/tv_userinfo"
+                    android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="26dp"
+                android:text="Thêm bạn bè"
+                android:layout_marginTop="8dp"
+                android:textColor="#000"
+                android:background="#ddd"
+                android:id="@+id/btn_adduser"
+                android:layout_alignParentRight="true"
+                android:paddingLeft="8dp"
+                android:textStyle="bold"
+                android:paddingRight="16dp"
+                android:drawableLeft="@drawable/btn_add_user"
+                />
+        </RelativeLayout>
+    </LinearLayout>

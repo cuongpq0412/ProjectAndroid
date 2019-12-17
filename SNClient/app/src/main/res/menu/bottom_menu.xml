@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/home"
+    android:icon="@drawable/ic_home_black_24dp"
+    android:title="" />
+    <item android:id="@+id/video"
+        android:icon="@drawable/ic_ondemand_video_grey_700_48dp"
+        android:title="" />
+    <item android:id="@+id/acount"
+        android:icon="@drawable/ic_account_circle_grey_700_48dp"
+        android:title="" />
+    <item android:id="@+id/friend"
+        android:icon="@drawable/ic_people_outline_grey_700_48dp"
+        android:title="" />
+    <item android:id="@+id/menu"
+        android:icon="@drawable/ic_menu_grey_700_48dp"
+        android:title="" />
+</menu>
